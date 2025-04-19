@@ -1,0 +1,130 @@
+
+.araz-header {
+    background: url('header-bg.jpg') no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+  }
+  .araz-header-overlay {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    background: #00204A;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+  }
+  .araz-header-overlay h1 {
+    background-color: #ff3d3d;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .araz-countdown {
+    background: #001f4d;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+  }
+  .araz-countdown-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .araz-number-box {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+
+  .araz-products {
+    background: #071e3d;
+    color: white;
+    padding: 40px 20px;
+  }
+  .araz-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #113f67;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 20px;
+  }
+  .araz-product img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .araz-product h3 {
+    margin-top: 20px;
+  }
+  .araz-product-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .araz-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .araz-btn-consult { background: white; color: #00204A; }
+  .araz-btn-buy { background: red; color: white; }
+
+  .araz-testimonials {
+    padding: 40px 20px;
+    background: #f2f2ff;
+    text-align: center;
+  }
+
+  .araz-faq {
+    background: white;
+    padding: 40px 20px;
+  }
+  .araz-faq-question {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    font-weight: bold;
+  }
+
+  .araz-cta-section {
+    background: linear-gradient(to right, #041f43, #012447);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .araz-cta-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .araz-cta-product {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+
+  .araz-footer {
+    background: #202040;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .araz-footer-column {
+    max-width: 300px;
+  }
+  .araz-footer-contact {
+    font-size: 14px;
+  }
