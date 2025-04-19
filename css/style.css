@@ -420,8 +420,7 @@ header {
 header.fix_style {
     position: fixed;
     top: 0;
-    backdrop-filter: blur(5px);
-    background-color: rgba(106, 73, 242, 0.9);
+    backdrop-filter: blur(2px);
     padding: 15px 0;
     transition: none;
     opacity: 0;
@@ -444,15 +443,20 @@ header.fixed .navbar {
     padding-right: 0;
     padding-top: 35px;
 }
-
+.navbar-nav{
+    width: 100%;
+    padding:10px 40px;
+    border-radius: 35px;
+}
 .navbar-expand-lg .navbar-nav {
     align-items: center;
+    background-color: #FFF;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 5px 20px;
     font-weight: 500;
-    color: var(--text-white);
+    color: #1E1E1E;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
@@ -652,13 +656,20 @@ header.fixed .navbar {
       transform: rotate(-45deg);
   }
 
-
+  .waves{
+    margin-bottom: 0  !important;
+    top: 4rem;
+  }
 /* ---------Hero-banner-Css-Start------------------ */
 /* hero banner wraper */
 .banner_section {
     padding-top: 180px;
     position: relative;
     background: #6a49f2;
+    background-image:url(/images/Untitled-1\ 1.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner_section .container {
@@ -3462,3 +3473,81 @@ header.fix_style.white_header {
 i.icofont-verification-check{
     margin-left: 5px;
 }
+
+
+/* //////////////////////// */
+
+.dreampool-container {
+    background-color: rgba(60, 106, 182, 0.4);
+    backdrop-filter: blur(8px);
+    color: white;
+    padding: 40px 30px;
+    border-radius: 16px;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: 42px;
+  }
+
+  .dreampool-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .dreampool-subtext {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .dreampool-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .dreampool-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+  }
+
+  .dreampool-btn-consult {
+    background-color: transparent;
+    color: white;
+  }
+
+  .dreampool-btn-consult:hover {
+    background-color: white;
+    color: #001840;
+  }
+
+  .dreampool-btn-whatsapp {
+    background-color: white;
+    color: #001840;
+  }
+
+  .dreampool-btn-whatsapp:hover {
+    background-color: #00e676;
+    color: white;
+  }
+
+  @media (max-width: 480px) {
+    .dreampool-container {
+      padding: 20px;
+    }
+
+    .dreampool-title {
+      font-size: 22px;
+    }
+
+    .dreampool-button {
+      font-size: 13px;
+      padding: 8px 16px;
+    }
+  }
