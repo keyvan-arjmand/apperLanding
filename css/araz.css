@@ -63,13 +63,14 @@
 
 .araz-product {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   background: #113f67;
   margin: 20px auto;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 750px;
   padding: 20px;
+  max-height: 335px;
 }
 
 .araz-product img {
