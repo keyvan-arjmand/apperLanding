@@ -659,16 +659,18 @@ header.fixed .navbar {
     top: 13rem;
     position: relative;
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     margin-bottom: -7px;
     min-height: 90px;
     max-height: 126px;
   }
   .waves{
-    position: relative;
-    width: 100%;
-    height: 10vh;
-    margin-bottom: -7px;
+    position: relative !important;
+    width: 100% !important;
+    height: 8vh !important;
+    margin-bottom: -7px !important;
+    min-height: 10px !important;
+
   }
 /* ---------Hero-banner-Css-Start------------------ */
 /* hero banner wraper */

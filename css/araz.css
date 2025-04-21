@@ -24,7 +24,6 @@
 }
 
 .araz-countdown {
-  background: #2A2C5F;
   background: linear-gradient(90deg,
       rgba(42, 44, 95, 1) 17%,
       rgba(40, 52, 116, 1) 33%,
@@ -33,6 +32,24 @@
   color: white;
   text-align: center;
   padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-wrapper {
+  display: flex;
+  padding-right: 90px;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row-reverse;
+  /* چون زبان فارسیه */
+}
+
+.countdown-content h2 {
+  margin-bottom: 1rem;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .araz-countdown-numbers {
@@ -43,11 +60,39 @@
 }
 
 .araz-number-box {
+  background:
+    white;
+  color: black;
+  padding:
+    10px 20px;
+  font-size: 24px;
+  border-radius:
+    10px;
+  width: 65px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.araz-countdown-labels {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.countdown-image img {
+  width: 17rem;
+  height: auto;
+}
+
+
+.araz-number-box {
   background: white;
   color: black;
   padding: 10px 20px;
   font-size: 24px;
   border-radius: 10px;
+  font-weight: bolder;
 }
 
 .araz-products {
