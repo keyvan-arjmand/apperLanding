@@ -3685,3 +3685,77 @@ i.icofont-verification-check{
     min-width: 200px;
     text-align: center;
   }
+
+
+  .consult-products-section {
+    background: linear-gradient(to left, #0f172a, #1e3a8a);
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .consult-products-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .consult-product-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .consult-product-card {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .consult-product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .consult-product-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .consult-product-desc {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .consult-product-button {
+    background-color: #d62828;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+  }
+  
+  .consult-discount-box {
+    background-color: #d62828;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    display: inline-block;
+  }
+  
