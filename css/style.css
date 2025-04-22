@@ -3571,3 +3571,117 @@ i.icofont-verification-check{
       padding: 8px 16px;
     }
   }
+
+
+  .consult-container {
+    max-width: 1200px;
+    margin:
+  50px auto;
+      margin-top: 50px;
+    padding:
+  20px;
+      padding-top: 20px;
+    margin-top: 0;
+    padding-top: 5rem;
+  }
+
+  .consult-form {
+    background-color: #1e3a8a;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+  }
+
+  .consult-form-section {
+    width: 50%;
+  }
+
+  .consult-form-section h2 {
+    margin-top: 0;
+  }
+
+  .consult-form-section input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+  }
+
+  .consult-form-section button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .consult-form-image {
+    width: 45%;
+  }
+
+  .consult-form-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .consult-features-section {
+    margin-top: 40px;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+  .consult-features-header {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1e3a8a;
+  }
+
+  .consult-features-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .consult-features-text {
+    flex: 1;
+  }
+
+  .consult-features-image {
+    flex: 1;
+  }
+
+  .consult-features-image img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 25rem;
+  }
+
+  .consult-feature-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .consult-feature-card {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 22%;
+    min-width: 200px;
+    text-align: center;
+  }
