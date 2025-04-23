@@ -3924,9 +3924,9 @@ i.icofont-verification-check {
     margin-top: 30px;
     padding-top: 15px;
 }
-.araz-product{
-    
-}
+
+
+
 .card-z {
     position: absolute;
     max-width: 240px;
@@ -3937,9 +3937,22 @@ i.icofont-verification-check {
     z-index: 1;
 }
 
+.img-card {
+    padding: 35px;
+}
+
+.card-image {
+    margin-right: 44px;
+    margin-bottom: 46px;
+}
+
 @media (max-width: 490px) {
     div:has(> svg.waves) {
         top: 2.8rem !important;
+    }
+
+    .card-z {
+        position: none !important;
     }
 
     /* .waves {
