@@ -249,7 +249,7 @@
     .navbar-expand-lg .navbar-nav .has_dropdown .sub_menu ul li a {text-align: right; line-height: 1.5; font-size: 14px;}
 
     /* banner section */
-    .banner_section {margin-top: 0px; padding-top: 175px;}
+    .banner_section {margin-top: 0px; padding-top: 43px;}
     .banner_section .banner_text h1 {font-size: 30px;}
     .banner_section .app_btn , .banner_section .used_app {justify-content: center;}
     .banner_section .app_btn li:last-child {margin-right: 0;}

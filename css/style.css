@@ -3932,31 +3932,39 @@ i.icofont-verification-check {
 
 @media (max-width: 490px) {
     div:has(> svg.waves) {
-        top: 2.5rem !important;
+        top: 2.8rem !important;
     }
+
+    /* .waves {
+        height: 7rem !important;
+    } */
 
     .countdown-image {
         margin-right: -3rem !important;
     }
 
     .banner_section {
-        min-height: 50vh !important;
+        min-height: 38vh !important;
     }
 
     .countdown-wrapper {
-        padding-right: 0 !important;
+        padding-right: 55px !important;
     }
 
     .countdown-image img {
-        width: 11rem !important;
+        width: 10rem !important;
     }
 
     .countdown-content h2 {
-        font-size: 30px !important;
+        font-size: 28px !important;
+        text-wrap: nowrap;
     }
 
     .araz-number-box {
-        width: 51px !important;
-        height: 61px !important;
+        width: 40px !important;
+        height: 55px !important;
+    }
+    .araz-countdown-labels{
+        font-size: 1rem !important;
     }
 }
