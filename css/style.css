@@ -3758,4 +3758,72 @@ i.icofont-verification-check{
     margin-top: 40px;
     display: inline-block;
   }
+  .footer-container {
+    background-color: #0f1c4d;
+    color: white;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    direction: rtl;
+  }
+  
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 220px;
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .footer-contact-list {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .footer-contact-list li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-icon {
+    margin-left: 8px;
+  }
+  
+  .footer-address-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-map {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .footer-logo {
+    float: left;
+    margin-left: 10px;
+    width: 50px;
+    height: auto;
+  }
+  
+  .footer-about-text {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .footer-copy {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+    padding-top: 15px;
+  }
   
