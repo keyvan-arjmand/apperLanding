@@ -1,4 +1,5 @@
 // Open Sub Menu
+
 $('.drp_btn').click(function(){
   $(this).siblings('.sub_menu').slideToggle();
 })
@@ -350,4 +351,3 @@ $(document).ready(function(){
 // INITIALIZE AOS
 
 AOS.init();
-
