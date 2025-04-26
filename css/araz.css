@@ -24,6 +24,7 @@
 }
 
 .araz-countdown {
+  padding-bottom: 78px !important;
   background: linear-gradient(90deg,
       rgba(42, 44, 95, 1) 17%,
       rgba(40, 52, 116, 1) 33%,

@@ -27,174 +27,15 @@
 -----------------------------------------------------------------------------------*/
 
 /* --------Font--------------- */
-
-/* persian-font */
 @font-face {
-    font-family: iranyekan;
-    font-style: normal;
-    font-weight: normal;
-    src: url("../../../fonts/2-IranYekan/iranyekanwebregular.eot");
-    src: url("../../../fonts/2-IranYekan/iranyekanwebregular.eot") format("embedded-opentype"), url("../../../fonts/2-IranYekan/iranyekanwebregular.woff2") format("woff2"), url("../../../fonts/2-IranYekan/iranyekanwebregular.woff") format("woff"), url("../../../fonts/2-IranYekan/iranyekanwebregular.ttf") format("truetype");
-}
-
-/* poppins-300 - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    src: url('../fonts/poppins-v20-latin-300.2ce.delay');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/poppins-v20-latin-300.2cfd41d.d?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/poppins-v20-latin-300.2d0.delay') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/poppins-v20-latin-300.2d1.delay') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/poppins-v20-latin-300.2d2.delay') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/poppins-v20-latin-300.2d3.delay#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-regular - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/poppins-v20-latin-regular.2d4.d');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/poppins-v20-latin-regular.2d5d4?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/poppins-v20-latin-regular.2d6.d') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/poppins-v20-latin-regular.2d7.d') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/poppins-v20-latin-regular.2d8.d') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/poppins-v20-latin-regular.2d9.d#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-italic - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: italic;
-    font-weight: 400;
-    src: url('../fonts/poppins-v20-latin-italic.2da.de');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/poppins-v20-latin-italic.2dbd41?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/poppins-v20-latin-italic.2dc.de') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/poppins-v20-latin-italic.2dd.de') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/poppins-v20-latin-italic.2de.de') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/poppins-v20-latin-italic.2df.de#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-500 - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/poppins-v20-latin-500.2e0.delay');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/poppins-v20-latin-500.2e1d41d.d?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/poppins-v20-latin-500.2e2.delay') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/poppins-v20-latin-500.2e3.delay') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/poppins-v20-latin-500.2e4.delay') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/poppins-v20-latin-500.2e5.delay#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-500italic - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: italic;
-    font-weight: 500;
-    src: url('../fonts/poppins-v20-latin-500italic.2e6');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/poppins-v20-latin-500italic.2e7?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/poppins-v20-latin-500italic.2e8') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/poppins-v20-latin-500italic.2e9') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/poppins-v20-latin-500italic.2ea') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/poppins-v20-latin-500italic.2eb#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-600 - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../fonts/poppins-v20-latin-600.2ec.delay');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/poppins-v20-latin-600.2edd41d.d?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/poppins-v20-latin-600.2ee.delay') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/poppins-v20-latin-600.2ef.delay') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/poppins-v20-latin-600.2f0.delay') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/poppins-v20-latin-600.2f1.delay#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-700 - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/poppins-v20-latin-700.2f2.delay');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/poppins-v20-latin-700.2f3d41d.d?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/poppins-v20-latin-700.2f4.delay') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/poppins-v20-latin-700.2f5.delay') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/poppins-v20-latin-700.2f6.delay') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/poppins-v20-latin-700.2f7.delay#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-800 - latin */
-@font-face {
-    font-family: 'Poppins';
+    font-family: "iranyekan";
     font-style: normal;
     font-weight: 800;
-    src: url('../fonts/poppins-v20-latin-800.2f8.delay');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/poppins-v20-latin-800.2f9d41d.d?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/poppins-v20-latin-800.2fa.delay') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/poppins-v20-latin-800.2fb.delay') format('woff'),
-        /* Modern Browsers */
-        url('../fonts/poppins-v20-latin-800.2fc.delay') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../fonts/poppins-v20-latin-800.2fd.delay#Poppins') format('svg');
-    /* Legacy iOS */
+    src: url("/fonts/Yekan/iranyekanwebmedium.eot");
+    src: url("/fonts/Yekan/iranyekanwebmedium.eot?#iefix") format("embedded-opentype"),
+        /* IE6-8 */ url("/fonts/Yekan/iranyekanwebmedium.woff") format("woff2"),
+        /* FF39+,Chrome36+, Opera24+*/ url("/fonts/Yekan/iranyekanwebmedium.woff") format("woff"),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("/fonts/Yekan/iranyekanwebmedium.ttf") format("truetype");
 }
 
 /* -----------Css-variable------ */
@@ -3754,6 +3595,8 @@ i.icofont-verification-check {
 }
 
 .consult-features-text {
+    font-weight: 400;
+    font-size: 18px;
     flex: 1;
 }
 
@@ -3903,7 +3746,7 @@ i.icofont-verification-check {
 }
 
 .footer-address-text {
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
@@ -3920,7 +3763,7 @@ i.icofont-verification-check {
 }
 
 .footer-about-text {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.8;
 }
 
@@ -3974,9 +3817,125 @@ i.icofont-verification-check {
     .araz-countdown-labels {
         font-size: 1rem !important;
     }
-    .dreampool-container{
+
+    .dreampool-container {
         min-width: 19rem !important;
     }
+
+    .hh32 {
+        font-size: 24px 1 !important;
+    }
+
+    .hh31 {
+        font-size: 28px !important;
+    }
+
+    .hh30 {
+        font-size: 14px !important;
+    }
+
+    .card-top {
+        padding-bottom: 23px;
+    }
+
+    .card-prod {
+        padding: 0 !important;
+
+    }
+
+    .khode-prod {
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .title-prod-card {
+        position: unset !important;
+    }
+
+    .araz-product-buttons {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .title-prod-card {
+        width: 100%;
+        padding-top: 0px !important;
+        padding: 16px;
+    }
+
+    .araz-product {
+        flex-direction: column-reverse !important;
+        margin-bottom: 90px !important;
+        padding: 0 !important;
+    }
+
+    .title-prod-card {
+        max-width: 100% !important;
+    }
+
+    .araz-product img {
+        max-width: 335px !important;
+        margin-bottom: 0 !important;
+        margin-top: -44px;
+    }
+
+    .araz-product2 {
+        flex-direction: column !important;
+        padding-right: 0px !important;
+        max-height: 565px !important;
+
+    }
+
+    .consult-form-section {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .consult-form-image {
+        width: 100% !important;
+
+    }
+
+    .consult-form {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .consult-features-text {
+        padding: 12px;
+
+    }
+
+    .consult-features-image img {
+        border-radius: 0 !important;
+    }
+
+    .consult-features-content {
+        flex-direction: column;
+
+    }
+
+    .consult-features-header {
+        padding-top: 10px;
+    }
+
+    .consult-features-section {
+        padding: 0 !important;
+    }
+}
+
+.title-prod-card {
+    position: absolute;
+    max-width: 240px;
+}
+
+.card-prod {
+    padding: 35px;
+}
+
+.khode-prod {
+    margin-right: 44px;
+    margin-bottom: 46px;
 }
 
 .Inptt::placeholder {
